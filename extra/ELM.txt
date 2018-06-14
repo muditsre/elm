@@ -1,0 +1,4 @@
+
+https://guide.elm-lang.org/
+
+http://package.elm-lang.org/packages/elm-lang/core/latest

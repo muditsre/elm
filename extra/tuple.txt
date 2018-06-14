@@ -1,0 +1,20 @@
+import Html exposing (text)
+import Tuple 
+ 
+ 
+mangetuple: ( Bool, String ) -> String
+
+mangetuple result =
+  if(Tuple.first result) then
+    "Success " ++ Tuple.second result
+  else
+    "Failure"
+ 
+main =
+  let 
+    result = (True , "Hello World")
+  in
+    result
+    |> mangetuple
+    |> text
+    
